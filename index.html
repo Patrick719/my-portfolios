@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="fontawesome\css\all.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="container">
+			<nav>    
+				<img src="img/me.jpg" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#header">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class="fas fa-times" onclick="closemenu()"></i>
+				</ul>
+				<i class="fas fa-bars" onclick="openmenu()"></i>
+			</nav>
+
+			<div class="header-text">
+				<p>UI/UX Designer</p>
+				<h1>Hi, I'm <span>Patrick</span><br> From Uganda</h1>
+			</div>
+		</div>
+	</div>
+
+	<!-----------about---------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="img/fullme.jpg">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis non vitae sequi, hic aperiam modi sunt dolorem dignisstibus culpa debitis vel, deserunt nemo. Impedit ratione dolorum dicta tempore, eius, error ducimus possimus, officia delectus aut et consequuntur sunt. Quo quisquam nam tempore placeat repudiandae asperiores, sed nisi ea ipsum suscipit, nobis temporibus? Laboriosam quidem fugiat, vero nobis illum adipisci veniam, blanditiis sint ad fugit, quas sunt totam quisquam optio quam ipsam delectus sapiente autem temporibus! Doloremque iure quaerat explicabo ducimus, ratione, tenetur amet commodi, nemo iste necessitatibus similique consequuntur possimus nobis optio illo. Autem maxime, ipsam nam odio iste tenetur. Ab nemo natus rerum accusantium dolor non, eaque doloremque a necessitatibus laboriosam corrupti eligendi praesentium? Rerum voluptatum hic nesciunt ratione fugit cum provident minima consequuntur. Modi beatae repudiandae nostrum unde tempore dolorum qui! Exercitationem recusandae magnam reprehenderit, libero necessitatibus sequi, fugit, voluptas mollitia vel nihil ipsam eaque laudantium.
+					</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>UI?UX</span><br>Designing Web/App interfaces</li>
+							<li><span>Web Development</span><br> Web app Development</li>
+							<li><span>App Development</span><br>Building Android/ios apps</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2025</span><br> Internship  Training at Kyambogo University</li>
+							<li><span>2025</span><br> UI?UX Design Training At Kyambogo University </li>
+							<li><span>2024</span><br> Member of KYUCSA at Kyambogo University</li>
+							
+						</ul>nmnm b
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2025 - current</span><br>UI?UX Design Training At Kyambogo University</li>
+							<li><span>2024 - current</span><br>Persuing Bachers Degree In Information System At Kyambogo University</li>
+							<li><span>2022-2023</span><br>Uganda Advanced Certificate Of Education (UACE) at Masindi Army Secondary School</li>
+							<li><span>2017 - 2020 </span><br>Uganda Certificate of Education (UCE) at Masindi Army Secondary School</li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!---------service------------>
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+			<div class="services-list">
+				<div>
+					<i class="fas fa-code"></i>
+					<h2>Web Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident? Dolorem aspernatur ad et quibusdam quos odit officia officiis quaerat! Ex at nostrum libero? Ducimus tempore, omnis in mollitia assumenda accusantium nesciunt aliquid officia alias hic sit ratione eius totam quam, cum aspernatur maxime dolore nobis itaque eveniet. Vitae, beatae!</p>
+					<a href="">Learn more</a>
+				</div>
+				<div>
+					<i class="fas fa-crop-alt"></i>
+					<h2>UI/UX Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident? Dolorem aspernatur ad et quibusdam quos odit officia officiis quaerat! Ex at nostrum libero? Ducimus tempore, omnis in mollitia assumenda accusantium nesciunt aliquid officia alias hic sit ratione eius totam quam, cum aspernatur maxime dolore nobis itaque eveniet. Vitae, beatae!</p>
+					<a href="">Learn more</a>
+				</div>
+				<div>
+					<i class="fab fa-app-store"></i>
+					<h2>App Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, provident? Dolorem aspernatur ad et quibusdam quos odit officia officiis quaerat! Ex at nostrum libero? Ducimus tempore, omnis in mollitia assumenda accusantium nesciunt aliquid officia alias hic sit ratione eius totam quam, cum aspernatur maxime dolore nobis itaque eveniet. Vitae, beatae!</p>
+					<a href="">Learn more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-----------------portfolio-------------->
+	<div id="portfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+			<div class="work-list">
+				<div class="work">
+					<img src="img/logo.jpeg">
+					<div class="layer">
+						<h3> Music App</h3>
+						<P>The App connects to to the taleted people around the world.
+							Download it from play store.</P>
+							<a href=""><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="img/shortcuts4.jpeg">
+					<div class="layer">
+						<h3>Social Media App</h3>
+						<P>The App connects to to the taleted people around the world.
+							Download it from play store.</P>
+							<a href=""><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="img/shortcuts3.jpeg">
+					<div class="layer">
+					 	<h3>Online KFC App</h3>
+						<P>The App connects to to the taleted people around the world.
+							Download it from play store.</P>
+							<a href=""><i class="fas fa-external-link-alt"></i></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+
+<!---------------contact------------->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p> <i class="fas fa-paper-plane" ></i>ategekapatrick@gmail.com</p>
+					<p><i class="fas fa-phone-square-alt"></i> +256747134113</p>
+					<div class="social-icons">
+						<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+						<a href="https://x.com/princepatr53258?s=09"><i class="fab fa-twitter-square"></i></a>
+						<a href=""><i class="fab fa-instagram"></i></a>
+						<a href=""><i class="fab fa-linkedin"></i></a>
+						<a href="wa.link/n4mncv"><i class="fab fa-whatsapp"></i></a>
+					</div>
+					<a href="img/Pato CV.docx" download class="btn btn2">Download Cv</a>
+				</div>
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Emai" required>
+						<textarea name="Message" row="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+		  <div class="copyright">
+			<p>copyright @ Patrick. Made with <i class="fas fa-heart"></i> my easy Tutorials </p>
+		  </div>
+	</div>
+
+
+
+
+	<script>
+
+		var tablinks = document.getElementsByClassName("tab-links");
+		var tabcontents = document.getElementsByClassName("tab-contents");
+
+		function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+			document.getElementById(tabname).classList.add("active-tab");
+		}
+	</script>
+
+	<script>
+
+		var sidemenu = document.getElementById("sidemenu")
+
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+		function closemenu(){
+			sidemenu.style.right = "-200px";
+		}
+
+	</script>
+
+</body>
+</html>
